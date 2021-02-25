@@ -189,14 +189,37 @@ a{
 
 @media screen and (min-width: 48.75em){
     .top-header{
-        text-align: left;
-        margin-top: 0;
-        
+        text-align: left;   
     }
     
     .top-header-logo{
-        margin: 0.5;
-        padding-top: 5em;
+        float: left;
+    }
+
+    .top-nav{
+        background-color: transparent;
+        text-align: right;
+    }
+
+    .top-nav ul{
+        list-style: none;
+        
+    }
+
+    .top-nav li{
+        display: inline-block;
+        margin: 1.2em 1em;
+        
+    }
+
+    .top-nav a{
+        color: #612674;
+        font-family: 'Oxygen';
+        
+    }
+
+    .top-nav a:hover{
+        background: #e7d9fc;
     }
     
     .icon-play{
@@ -220,34 +243,6 @@ a{
         height: 20em;
     }
 
-    .top-nav{
-        background-color: transparent;
-        text-align: right;
-        
-    }
-
-    .top-nav ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        
-    }
-
-    .top-nav li{
-        display: inline-block;
-        margin: 0.2em 1em;
-        
-    }
-
-    .top-nav a{
-        color: #612674;
-        font-family: 'Oxygen';
-        
-    }
-
-    .top-nav a:hover{
-        background: #e7d9fc;
-    }
 
     .top-content-title, .top-content-subtitle{
         color: white;
